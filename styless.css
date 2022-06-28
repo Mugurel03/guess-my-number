@@ -3,7 +3,8 @@
 :root {
   --primary-color: #4f6367;
   --text-color: #eef5db;
-  --win-color: #fe5f55;
+  --button-color: #fe5f55;
+  
 }
 
 * {
@@ -119,7 +120,7 @@ h1 {
 }
 
 .btn:hover {
-    background-color: var(--win-color);
+    background-color: var(--button-color);
 }
 
 .message {
